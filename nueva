@@ -1,0 +1,12 @@
+>>> "Su nombre es %s."  % "Arturo"
+'Su nombre es Arturo.'
+>>> nombre = "Alicia"
+>>> edad = 10
+>>> "Soy %s y tengo %d años de edad." % (nombre, edad)
+'Soy Alicia y tengo 10 años de edad.'
+>>> n1 = 4
+>>> n2 = 5
+>>> "2**10 = %d y %d * %d = %f" % (2**10, n1, n2, n1 * n2)
+'2**10 = 1024 y 4 * 5 = 20.000000'
+>>>
+"<FORMATO>" % (<VALORES>)
